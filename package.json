@@ -4,7 +4,9 @@
   "description": "learn is fun",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format-sol": "npx prettier --write --plugin=prettier-plugin-solidity '*.sol'",
+    "format": "npx prettier --write ."
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +16,8 @@
     "hardhat": "^2.22.15"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.3",
+    "prettier-plugin-solidity": "^1.4.1"
   }
 }
