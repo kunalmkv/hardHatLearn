@@ -7,7 +7,7 @@ contract BoxV2 {
 
     // Increments the stored value by 1
     function mulByTwo() public {
-        value*= 2;
+        value+= 200;
     }
 }
 

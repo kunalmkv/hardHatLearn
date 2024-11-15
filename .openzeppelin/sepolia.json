@@ -31,6 +31,54 @@
         },
         "namespaces": {}
       }
+    },
+    "ae5e62defd73e569323c6d5caf05842fc1193fd30dc2b39555583e9c570091e9": {
+      "address": "0xEceD85d9c7d24ABE8AbF86cc517ED4c1cc58505c",
+      "txHash": "0x696b105deafc10127c2570500e7811f8c79f99ea9283d37665c3d5f1a2ab57c9",
+      "layout": {
+        "solcVersion": "0.8.27",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts/BoxV2.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "fb6516236f6f4a7f4032a3d06cb521d2b0bab5e0ff5b505a05131b1a8b203b33": {
+      "address": "0x40c2d3888a8A7bb002A01Ca34dAfeF8B15988641",
+      "txHash": "0x9fe31b2bc8257b203ad3e9cc27df43dd5481d447f35b3feb8b517f9042173629",
+      "layout": {
+        "solcVersion": "0.8.27",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts/BoxV2.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {}
+      }
     }
   }
 }
